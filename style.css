@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.buttons{
+    height: 60vh;
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttons button {
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    background: #242b2e;
+    cursor: pointer;
+    margin-left: 5px;
+    border: 0;
+    transition: all 0.3s;
+}
+
+.buttons button:hover {
+    background: #FF4040;
+    transform: scale(1.1);
+}
